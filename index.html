@@ -44,7 +44,23 @@
 
 </head>
 
-<body>
+<body onload="myFunction()">
+	 <div id="preload" class="preload">
+      <img class="airplane" src="assets/img/plane.png" alt="plane">
+      <h3 style="font-family: Arial, Helvetica, sans-serif;">Taking you to HackGujarat...</h3>
+      <img class="c1" src="assets/img/c1.png" alt="">
+      <img class="c2" src="assets/img/c2.png" alt="">
+      <img class="c3" src="assets/img/c3.png" alt="">
+      <img class="c4" src="assets/img/c4.png" alt="">
+      <img class="c5" src="assets/img/c5.png" alt="">
+  </div>
+ <script>
+    function myFunction()
+{
+   // alert("working...");
+    document.getElementById("preload").style.display = "none";
+}
+</script>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
         <div class="container"><a class="navbar-brand logo" href="index.html"><strong>Team_Scriptech</strong><br></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
